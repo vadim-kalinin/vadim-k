@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="resources/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>VADIM-K Frontend dev.</title>
+</head>
+
+<body>
+    <header>
+        <section id="navigation">
+            <div class="container">
+        <div class="navigation-wrapper">
+            <a href="" class="logotype">< VADIM-K /></a>
+            <div class="navigation">
+                <a href="#about-us" class="nav">обо мне</a>
+                <a href="#competitions" class="nav">компетенции</a>
+                <a href="#work" class="nav">портфолио</a>
+                <a href="#contact" class="nav">контакты</a>
+            </div>
+            <div class="burger-btn js-burger-btn"></div>
+        </div>
+    </div>         
+        </section>
+
+        <div class="burger js-burger">
+            <div class="burger-content js-burger__content">
+                <a class="burger-logo" href="#">< VADIM-K /></a>
+                <a class="burger-link" href="#about-us">ОБО МНЕ</a>
+                <a class="burger-link" href="#competitions">КОМПЕТЕНЦИИ</a>
+                <a class="burger-link" href="#work">ПОРТФОЛИО</a>
+                <a class="burger-link" href="#contact">КОНТАКТЫ</a>
+                <div class="social-burger">
+                    <a href="#" class="iconsbg tg"></a>
+                    <a href="#" class="iconsbg vk"></a>
+                    <a href="#" class="iconsbg mail"></a>
+                </div>
+            </div>
+        </div>
+
+
+        <section id="main" class="main">
+            <div class="container">
+                <div class="main-wrapper">
+                    <div class="title-wrapper">
+                        <p class="title-hello">Привет, я</p>
+                        <h1 class="title-name">VADIM K.</h1>
+                        <p class="title-frontend">Front-end разработчик</p>
+                        <a class="btn-header" href="#work">ПОРТФОЛИО</a>
+                    </div>
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="resources/main-photo-phone.png">
+                        <source media="(max-width: 1199px)" srcset="resources/main-photo-tablet.png">
+                        <img src="resources/main-photo.png" alt="">
+                    </picture>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section id="about-us" class="about-us">
+            <div class="container">
+                <picture>
+                    <source media="(max-width: 1367px)" srcset="resources/about-us-tablet.png">
+                    <img class="photo-about-us" src="resources/about-us.png" alt="">
+                </picture>
+                <div class="text-wrapper-about-us">
+                    <h2>
+                        < обо мне />
+                    </h2>
+                    <p class="text-about-us">Привет, меня зовут Вадим. Я Frontend разработчик из России, города
+                        Санкт-Петерург.</p><br>
+                    <p class="text-about-us">Я занимаюсь разработкой и поддержкой сайтов для малого и cреднего бизнеса,
+                        которые повышают престиж компании и позволяют выделиться на фоне конкурентов. Забочусь о том,
+                        чтобы
+                        сайт был удобyым и функциональным для пользователей, работал быстро, был безопасным и доступным
+                        на
+                        всех устройствах.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="competitions" class="competitions">
+            <div class="container">
+                <picture>
+                    <source media="(max-width: 1199px)" srcset="resources/competitions-tablet.png">
+                    <img class="photo-competitions" src="resources/competitions.png" alt="">
+                </picture>
+                <h2>
+                    < компетеции />
+                </h2>
+                <div class="bar">
+                    <p class="text-bar">HTML</p>
+                    <div class="progress-bar-gray">
+                        <div class="progress-bar-line html"></div>
+                    </div>
+                    <p class="procent">100%</p>
+                </div>
+                <div class="bar">
+                    <p class="text-bar">CSS</p>
+                    <div class="progress-bar-gray">
+                        <div class="progress-bar-line css"></div>
+                    </div>
+                    <p class="procent">80%</p>
+                </div>
+                <div class="bar">
+                    <p class="text-bar">JS</p>
+                    <div class="progress-bar-gray">
+                        <div class="progress-bar-line js"></div>
+                    </div>
+                    <p class="procent">1%</p>
+                </div>
+                <div class="bar">
+                    <p class="text-bar">REACT</p>
+                    <div class="progress-bar-gray">
+                        <div class="progress-bar-line react"></div>
+                    </div>
+                    <p class="procent">1%</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="work" class="work">
+            <div class="container">
+                <h2>
+                    < мои работы />
+                </h2>
+                <div class="wrapper-item">
+                    <div class="wrap">
+                    <div class="item-work">
+                        <div class="item-header">
+                            <div class="ticket-wrapper">
+                                <p class="ticket">верстка</p>
+                                <p class="ticket">адаптация</p>
+                            </div>
+                            <img class="item-photo" src="resources/item1.png" alt="">
+                            <p class="name-item">Студия дизайна интерьеров "Метрика"</p>
+                        </div>
+                        <a href="#" class="btn">Подробнее ➟</a>
+                    </div>
+                </div>
+                <div class="wrap">
+                    <div class="item-work">
+                        <div class="item-header">
+                            <div class="ticket-wrapper">
+                                <p class="ticket">верстка</p>
+                                <!-- <p class="ticket">адаптация</p> -->
+                            </div>
+                            <img class="item-photo" src="resources/item2.png" alt="">
+                            <p class="name-item">Портфолио<br> ORLOV</p>
+                        </div>
+                        <a href="#" class="btn">Подробнее ➟</a>
+                    </div>
+                </div>
+                <div class="wrap">
+                    <div class="item-work">
+                        <div class="item-header">
+                            <div class="ticket-wrapper">
+                                <p class="ticket">верстка</p>
+                                <!-- <p class="ticket">адаптация</p> -->
+                            </div>
+                            <img class="item-photo" src="resources/item3.png" alt="">
+                            <p class="name-item">Интернет магазин капкейков<br> Сладкий Сундук</p>
+                        </div>
+                        <a href="#" class="btn">Подробнее ➟</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="last">< КОНТАКТЫ /></h2>
+                <div class="contact-wrapper">
+                <div class="contact-form">
+                    <p class="contact-text">Для связи со мной заполните простую форму</p>
+                    <input type="text" placeholder="Введите имя">
+                    <input type="email" placeholder="example@mail.com">
+                    <button class="btn-contact">Отправить</button>
+                </div>
+                <div class="contact-image">
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="resources/contact-phone.png">
+                        <source media="(max-width: 1199px)" srcset="resources/contact-tablet.png">
+                        <img src="resources/contact.png" alt="">
+                    </picture></div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+<footer>
+    <section id="footer" class="bg-footer">
+        <div class="container footer">
+            <div class="left-box">
+                <p class="name-footer">Портфолио frontend разработчика</p>
+                <p class="logo-name">< VADIM-K /></p>
+                <p class="copy">Все права защищены.2024</p>
+            </div>
+            <div class="right-box">
+                <a href="#" class="icons tg"></a>
+                <a href="#" class="icons vk"></a>
+                <a href="#" class="icons mail"></a>
+            </div>
+        </div>
+    </section>
+
+</footer>
+
+
+<script src="burger.js"></script>
+</body>
+
+</html>
