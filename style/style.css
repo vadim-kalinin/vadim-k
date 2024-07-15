@@ -218,10 +218,11 @@ h2 {
     border-radius: 40px;
     width: max-content;
     color: #fff;
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 20px;
+    line-height: 31px;
     padding: 1px 24px;
     margin-bottom: 5px;
+    text-transform: uppercase;
 
 }
 
@@ -806,8 +807,8 @@ input:focus {
 
     .ticket {
         width: max-content;
-        font-size: 20px;
-        line-height: 26px;
+        font-size: 15px;
+        line-height: 24px;
         padding: 1px 16px;
     }
 
